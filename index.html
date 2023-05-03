@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome-Books</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav>
+        <h1>Awesome Books</h1>
+        <a href="#list-section" id="list">List</a>
+        <span>|</span>
+        <a href="#add-section" id="add-new">Add New</a>
+        <span>|</span>
+        <a href="#contact-section" id="contact">Contact</a>
+    </nav>
+    
+        <p id="date" class="date"></p>
+    
+    <div class="container">
+        <section id="list-section">
+            <h2 class="heading">All awesome books</h2>
+            <section id="book-list">
+        
+        
+            </section>
+        </section>
+
+
+    <section id="add-section">
+        <form class="add-book">
+            <h2 class="heading">Add a new book</h2>
+            <input type="text" id="title" placeholder="title" required>
+            <input type="text" id="author" name="author" placeholder="author" required>
+            <button type="submit"  id="add-btn">Add</button>
+        </form>
+    </section>
+
+
+    <section id="contact-section">
+        <h2>Contact information</h2>
+        <p>Do you have any questions or you just want to say "Hello"? <br>You can reach out to us!</p>
+        <ul>
+            <li>Our email: mail@mail.com</li>
+            <li>Our phone number: +9535644646546</li>
+            <li>Our adress: New York City, USA</li>
+        </ul>
+    </section>
+
+
+</div>
+<footer>
+    <p>Copywrite Awesome books, some rights are reserved</p>
+</footer>
+
+
+    <script src="./lib/index.js" type="module"></script>
+</body>
+</html>
